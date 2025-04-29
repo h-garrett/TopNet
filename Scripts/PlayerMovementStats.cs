@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName ="Player Movement")]
 public class PlayerMovementStats : ScriptableObject
 {
-
+// Not all aspects of this class are currently in use. Consider this to be a set of tools for use as needed.
   
   [Header("Walk")]
   [Range(1f, 100f)] public float MaxWalkSpeed = 12.5f;
